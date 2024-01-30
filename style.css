@@ -1,0 +1,70 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+
+#hero {
+  width: 592px;
+  margin: 0px auto 72px;
+ }
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 36px;
+}
+
+h1 span{
+  font-weight: bold;
+}
+
+
+ p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+span, a {
+  color: #FF9900;
+
+}
+
+p #footer {
+  color: #7D7987;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+
+#footer a+a {
+  margin-left: 60px;
+}
+
+ #line {
+  width: 568px;
+  height: 0px;
+  margin: 0px auto 8px;
+
+  border: 1px #eceff2 solid;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* O elemento balls não da pra ver direito na tela
+mas ele signica um botão fixo não importa o tamanho
+ ou formato da tela que ele estara posicionado la 
+ geralmente usado nos cantos da tela por exemplo esse
+  balls não da pra ver direito mas ele esta posicionado 
+  no canto inferior direito da tela*/
